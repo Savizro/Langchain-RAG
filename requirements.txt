@@ -34,6 +34,4 @@ sentence-transformers
 # Optional integrations
 cassio
 
-# Removed:
-# langchain-objectbox==0.0.4 → not compatible with Python 3.10 and has no stable release.
 
