@@ -1,0 +1,39 @@
+# Core LangChain ecosystem
+langchain
+langchain-core>=0.1.47,<0.2.0
+langchain-community
+langchainhub
+
+# OpenAI & Groq integration
+langchain-openai
+langchain-groq
+groq
+
+# Environment configuration
+python-dotenv
+
+# Web + API interface
+streamlit
+langserve
+fastapi
+uvicorn
+sse_starlette
+
+# Parsers & Data utilities
+beautifulsoup4
+pypdf
+PyPDF2
+wikipedia
+arxiv
+
+# Embeddings & Vector Stores
+chromadb
+faiss-cpu
+sentence-transformers
+
+# Optional integrations
+cassio
+
+# Removed:
+# langchain-objectbox==0.0.4 → not compatible with Python 3.10 and has no stable release.
+
